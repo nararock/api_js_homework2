@@ -1,0 +1,51 @@
+body{
+    background-color: #000;
+}
+
+svg{
+    width: 50px;
+    fill: darkgoldenrod;    
+}
+
+svg:hover{
+    cursor: pointer;
+    fill: crimson;
+}
+
+.rightArrow, .leftArrow{
+    width: 80px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: 'Macondo';
+    font-weight: 400;
+    font-size: 70px;
+    color:darkgoldenrod;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;    
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.colorDot{
+    fill: crimson;
+}
